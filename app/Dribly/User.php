@@ -15,7 +15,7 @@ class User extends DriblyModel implements AuthenticatableContract
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'firstname', 'lastname', 'email', 'password',
     ];
 
     /**
