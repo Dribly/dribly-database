@@ -5,7 +5,7 @@ namespace Dribly;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends DriblyModel implements AuthenticatableContract
+class User extends Authenticatable
 {
     use Notifiable;
 

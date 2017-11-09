@@ -4,7 +4,7 @@ namespace Dribly;
 
 use Illuminate\Database\Eloquent\Model;
 
-class MessageLog extends Model
+class MessageLog extends DriblyModel
 {
     //
 }
