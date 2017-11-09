@@ -2,13 +2,10 @@
 
 namespace Dribly;
 
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends DriblyModel implements AuthenticatableContract
+class User extends DriblyModel
 {
-    use Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *

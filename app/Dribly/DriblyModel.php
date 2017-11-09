@@ -5,6 +5,7 @@
  * and open the template in the editor.
  */
 namespace Dribly;
+use Illuminate\Database\Eloquent\Model;
 
 /**
  * Description of DriblyModel
